@@ -1,0 +1,37 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="{%static "javaascript/django_ajax.js"%}"></script>
+	<script src="{%static "javaascript/main.js"%}"></script>
+	<script src="{%static "javaascript/c3.min.js"%}"></script>
+	<script src="https://d3js.org/d3.v4.js"></script>
+	<link href="static/css/c3.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+
+<body>
+
+	<div class="logo1">
+		<span class="google-logo">
+	    <span class="google-G">G</span><span class="google-R">R</span><span class="google-A">A</span><span class="google-F">F</span><span class="google-I">I</span><span class="google-T">T</span>
+	    </span>
+    </div>
+
+	<h1 class="search"> <input type="text" name="search" id="search_tick" placeholder="Enter in a ticker..">
+	</h1>
+
+	<div id="search_button">
+		<button id="search"> Search </button>
+	</div>
+
+	<div id="results">
+		Results Div
+	</div>
+
+</body>
+
+</html>

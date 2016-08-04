@@ -1,0 +1,27 @@
+.google-logo {
+	font-family: Catull,Sans-Serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.logo1{
+	text-align: center;
+}
+
+.google-G { color:#0047F1; }
+.google-R { color:#DD172C; }
+.google-A { color:#F9A600; }
+.google-F { color:#0047F1; }
+.google-I { color:#00930E; }
+.google-T { color:#E61B31; }
+
+.search{
+    text-align: center;
+}
+
+#search_button{
+
+	position: relative;
+	left: 45%;
+
+}
