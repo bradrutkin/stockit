@@ -7,9 +7,7 @@
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script src="{%static "javaascript/django_ajax.js"%}"></script>
 	<script src="{%static "javaascript/main.js"%}"></script>
-	<script src="{%static "javaascript/c3.min.js"%}"></script>
-	<script src="https://d3js.org/d3.v4.js"></script>
-	<link href="static/css/c3.css" rel="stylesheet" type="text/css">
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
 
@@ -17,21 +15,31 @@
 
 	<div class="logo1">
 		<span class="google-logo">
-	    <span class="google-G">G</span><span class="google-R">R</span><span class="google-A">A</span><span class="google-F">F</span><span class="google-I">I</span><span class="google-T">T</span>
+	    <span class="stockit-S">S</span><span class="stockit-T">T</span><span class="stockit-O">O</span><span class="stockit-C">C</span><span class="stockit-K">K</span><span class="stockit-I">I</span><span class="stockit-T2">T</span>
 	    </span>
     </div>
 
 	<h1 class="search"> <input type="text" name="search" id="search_tick" placeholder="Enter in a ticker..">
 	</h1>
 
-	<div id="search_button">
-		<button id="search"> Search </button>
+	<div id="search_buttons">
+	<button class="buttonx" id="search"> Search </button>
+	<button class="buttonx" id="more"> Show me more </button>
 	</div>
 
-	<div id="results">
-		Results Div
+	<div id="my_chart" width="600" height="390">	
+	</div>
+	<div class="apps">
+
+		<div class="cashflow">
+		</div>
+
+	</div>
+	<div class="wacc_calc">
 	</div>
 
+
+<p class="foot"> Created by Brad Rutkin </p>
 </body>
 
 </html>
