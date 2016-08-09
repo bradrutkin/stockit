@@ -21,19 +21,20 @@
 }
 
 #search_tick{
-	width:22.35%;
+	width:22.5%;
 }
 
 #search{
-	width: 8%;
+	width: 11%;
 	position: relative;
-	left: 38.80%;
+	left: 38.50%;
 
 }
 
 #more{
 	position: relative;
-	left: 40.00%;
+	width: 11%;
+	left: 39.350%;
 
 	
 }
@@ -124,17 +125,20 @@
 
 #cf_button1{
 	position: relative;
-	left: 39%;
+	left: 38.50%;
+	width: 11%;
 }
 
 #wacc_button1{
 	position: relative;
-	left: 40%;
+	width: 11%;
+	left: 39.750%;
 }
 
 .apps{
-	padding-top: 10px;
+	padding-top: 30px;
 	top: 50%;
+	padding-right: 0%;
 }
 
 
