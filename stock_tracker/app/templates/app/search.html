@@ -3,27 +3,19 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<title>Stockit</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
 	<script src="{%static "javaascript/django_ajax.js"%}"></script>
+	<script src="{%static "javaascript/post.js"%}"></script>
 	<script src="{%static "javaascript/main.js"%}"></script>
 	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Cabin+Sketch:700' rel='stylesheet' type='text/css'>
 	<!-- <link rel="stylesheet"  href="static/css/normalize.css">
 	<link rel="stylesheet"  href="static/css/grid.css"> -->
 </head>
 
 <body>
-	
-	<!-- <div class="row">
-		<div class="col five"></div>
-		<div class="col five"></div>
-		<div class="col five"></div>
-		<div class="col five"></div>
-		<div class="col five"></div>
-	</div> -->
-
-
 
 	<div class="logo1">
 		<span class="google-logo">
@@ -38,17 +30,33 @@
 	<button class="buttonx" id="search"> Search </button>
 	<button class="buttonx" id="more"> Show me more </button>
 	</div>
-
+	<div id="pricer">
+		<div class="current_price_up">
+		</div>
+		<div class="current_price_equal">
+		</div>
+		<div class="current_price_down">
+		</div>
+	</div>
 	<div id="my_chart" width="600" height="390">	
 	</div>
-	<div class="apps">
-
+	<div class="apps1">
 		<div class="cashflow">
 		</div>
-
+		<div class="wacc_calc">
+		</div>
 	</div>
+	<div class="apps2">
+	</div>
+
+
+
 	<div class="wacc_calc">
 	</div>
+	<div class="metrics">
+	</div>
+
+
 
 
 <p class="foot"> Created by Brad Rutkin </p>

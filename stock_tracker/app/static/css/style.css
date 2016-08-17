@@ -5,6 +5,7 @@
 }
 
 .logo1{
+	padding-top: 100px;
 	text-align: center;
 }
 
@@ -21,20 +22,20 @@
 }
 
 #search_tick{
-	width:22.5%;
+	width:25%;
 }
 
 #search{
-	width: 11%;
+	width: 15%;
 	position: relative;
-	left: 38.50%;
+	left: 33.70%;
 
 }
 
 #more{
 	position: relative;
-	width: 11%;
-	left: 39.350%;
+	width: 15%;
+	left: 34.550%;
 
 	
 }
@@ -121,6 +122,7 @@
 	text-align: center;
 	font-size: 7px;
 	color: blue; 
+	/*left: 60%;*/
 }
 
 #cf_button1{
@@ -135,11 +137,103 @@
 	left: 39.750%;
 }
 
-.apps{
-	padding-top: 30px;
+#news_search{
+	position: relative;
+	left: 38.50%;
+	width: 11%;
+}
+
+#cf_button2{
+	position: relative;
+	left: 39.750%;
+	width: 11%;
+}
+
+.apps1{
+	padding-top: 1%;
 	top: 50%;
 	padding-right: 0%;
 }
+
+.apps2{
+	padding-top: 1%;
+	top: 20%;
+	padding-right: 0%;
+}
+
+.metrics{
+	padding-top: 50%;
+}
+
+.current_price_up{
+	position: absolute;
+	color: green;
+	font-size: 30px;
+	font-family: 'Cabin Sketch', cursive;
+}
+
+.current_price_down{
+	position: absolute;
+	color: red;
+	font-size: 30px;
+	font-family: 'Cabin Sketch', cursive;
+}
+
+.current_price_equal{
+	position: absolute;
+	font-size: 30px;
+	font-family: 'Cabin Sketch', cursive;
+}
+
+#pricer{
+	padding-top: 50px
+}
+
+.news_search_bar{
+	text-align: center;
+	border: black;
+	position: relative;
+	top: 10%;
+	width: 100%;
+}
+
+.nbar{
+	width: 100%;
+}
+
+
+
+#search_company{
+	position: relative;
+	/*top: 33.80%;*/
+	/*left: 35%;*/
+	text-align: center;
+	width: 30%;
+}
+
+.news_buttons{
+	bottom: 5%;
+}
+
+#back{
+	position: relative;
+	width: 15%;
+	left: 35.350%;
+}
+
+#searchn{
+	width: 15%;
+	position: relative;
+	left: 34.50%;
+}
+
+
+
+
+
+
+
+
 
 
 
